@@ -1,4 +1,5 @@
-import requests, json
+import requests
+import json
 from datetime import datetime, date, time, timedelta
 
 def get_trending_repositories(top_size=20):
